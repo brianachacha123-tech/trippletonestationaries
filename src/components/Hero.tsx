@@ -20,10 +20,6 @@ export const Hero = () => (
       aria-hidden="true"
     />
 
-    {/* Dark overlay for readability */}
-    <div className="absolute inset-0 bg-gradient-to-b from-primary/85 via-primary/75 to-primary/90" aria-hidden />
-    <div className="absolute inset-0 bg-black/40" aria-hidden />
-
     {/* Soft accent glows */}
     <div className="absolute -top-24 -right-24 w-72 h-72 rounded-full bg-accent/20 blur-3xl" aria-hidden />
     <div className="absolute -bottom-24 -left-24 w-72 h-72 rounded-full bg-secondary/30 blur-3xl" aria-hidden />
