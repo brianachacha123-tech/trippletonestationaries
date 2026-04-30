@@ -31,22 +31,22 @@ export const Hero = () => (
           <span>Kisumu • Katito Junction</span>
         </div>
 
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-[1.05] mb-4">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-[1.05] mb-4 text-black">
           {BUSINESS.name}
         </h1>
 
-        <p className="text-base sm:text-lg md:text-xl text-primary-foreground/90 mb-5 max-w-2xl md:mx-0 mx-auto">
+        <p className="text-base sm:text-lg md:text-xl text-black/90 mb-5 max-w-2xl md:mx-0 mx-auto">
           Quality School Practical Equipment, Lab Supplies and Stationery in Kisumu.
         </p>
 
-        <div className="inline-flex items-center gap-2 text-accent font-semibold mb-7 justify-center md:justify-start">
+        <div className="inline-flex items-center gap-2 text-black font-semibold mb-7 justify-center md:justify-start">
           <Sparkles className="w-4 h-4" />
           <span className="italic">{BUSINESS.motto}</span>
         </div>
 
         <a
           href={`tel:${BUSINESS.phoneTel}`}
-          className="flex md:inline-flex items-center justify-center gap-2 text-accent font-bold text-lg md:text-xl mb-7 hover:underline"
+          className="flex md:inline-flex items-center justify-center gap-2 text-black font-bold text-lg md:text-xl mb-7 hover:underline"
         >
           <Phone className="w-5 h-5" /> {BUSINESS.phoneDisplay}
         </a>
